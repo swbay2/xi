@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xi</artifactId>
+        <groupId>cn.shi.hong</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xi-upms</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>xi-upms-common</module>
+        <module>xi-upms-client</module>
+        <module>xi-upms-dao</module>
+        <module>xi-upms-rpc-service</module>
+        <module>xi-upms-rpc-server</module>
+        <module>xi-upms-rpc-api</module>
+    </modules>
+
+
+</project>
